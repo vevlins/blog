@@ -238,9 +238,8 @@ widgets:
         position: left
         type: links
         # Names and URLs of the sites
-        # links:
-        #     Hexo: https://hexo.io
-        #     Bulma: https://bulma.io
+        links:
+            Hexo: https://hexo.io
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
