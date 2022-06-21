@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: ''
+title: 朔望
+subtitle: "If you can't explain it simply, you don't understand it well enough."
 description: ''
 keywords: null
 author: Wang Zhang
 language: zh-CN
 timezone: ''
-url: http://example.com
+url: https://dabao.xyz
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:

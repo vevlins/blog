@@ -201,7 +201,7 @@ widgets:
         # Author name
         author: Wang Zhang
         # Author title
-        author_title: Frontend Developer
+        author_title: Frontend Developer & Writer
         # Author's current location
         location: ShenZhen
         # URL or path to the avatar image
@@ -220,7 +220,7 @@ widgets:
                 url: https://v2ex.com/member/vevlins
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -261,14 +261,14 @@ widgets:
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: subscribe_email
+    #     # Hint text under the email input
+    #     description: 
+    #     # Feedburner ID
+    #     feedburner_id: 'dabao/lrDu'
     # Google AdSense unit configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
@@ -296,16 +296,6 @@ plugins:
     animejs: true
     # Show the "back to top" button
     back_to_top: true
-    # Baidu Analytics plugin settings
-    # https://tongji.baidu.com
-    baidu_analytics:
-        # Baidu Analytics tracking ID
-        tracking_id: 
-    # Bing Webmaster Tools plugin settings
-    # https://www.bing.com/toolbox/webmaster/
-    bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
     busuanzi: true
@@ -361,9 +351,6 @@ plugins:
         security: 
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
-    twitter_conversion_tracking:
-        # Twitter Pixel ID
-        pixel_id: 
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
