@@ -122,9 +122,12 @@ footer:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        Attribution 4.0 International:
+        Attribution:
             icon: fab fa-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: https://creativecommons.org/licenses/by-nc/4.0/
 # Article related configurations
 article:
     # Code highlight settings
@@ -158,9 +161,9 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+    type: livere
     # Disqus shortname
-    shortname: 'vevlins-blog'
+    uid: MTAyMC81NjY1NS8zMzExOQ
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -308,17 +311,17 @@ plugins:
         web_id: 
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
-    cookie_consent:
-        # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
-        # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
-        # Whether the popup should stay static regardless of the page scrolls
-        static: false
-        # Where on the screen the consent popup should display
-        position: bottom-left
-        # URL to your site's cookie policy
-        policyLink: https://www.cookiesandyou.com/
+    # cookie_consent:
+    #     # The compliance type. Can be "info", "opt-in", or "opt-out"
+    #     type: info
+    #     # Theme of the popup. Can be "block", "edgeless", or "classic"
+    #     theme: edgeless
+    #     # Whether the popup should stay static regardless of the page scrolls
+    #     static: false
+    #     # Where on the screen the consent popup should display
+    #     position: bottom-left
+    #     # URL to your site's cookie policy
+    #     policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
     gallery: true
     # Google Analytics plugin settings
@@ -359,7 +362,7 @@ providers:
     # Name or URL template of the webfont CDN provider
     fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+    iconcdn: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
 
 
 
