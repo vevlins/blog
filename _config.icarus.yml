@@ -301,7 +301,7 @@ plugins:
     back_to_top: true
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: true
+    busuanzi: false
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -328,7 +328,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: G-7ZMCLB1BLW
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
