@@ -170,7 +170,7 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: 'https://s3.bmp.ovh/imgs/2022/06/22/abba3861165ee010.jpeg'
+        qrcode: 'https://s1.ax1x.com/2022/06/23/jPyKeK.jpg'
     # Wechat donate button configurations
     # -
     #     type: wechat
