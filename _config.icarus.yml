@@ -170,7 +170,7 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: 'https://s1.ax1x.com/2022/06/23/jPyKeK.jpg'
+        qrcode: assets/alipay.jpeg
     # Wechat donate button configurations
     # -
     #     type: wechat
@@ -221,6 +221,9 @@ widgets:
             V2ex:
                 icon: fab fa-v
                 url: https://v2ex.com/member/vevlins
+            StackOverflow:
+                icon: fab fa-brands fa-stack-overflow
+                url: https://stackoverflow.com/users/9247973/wang-zhang
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
@@ -248,6 +251,10 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: categories
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: tags
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -259,10 +266,6 @@ widgets:
         position: left
         type: archives
     # Tags widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: tags
     # Google FeedBurner email subscription widget configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
@@ -301,7 +304,7 @@ plugins:
     back_to_top: true
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -362,7 +365,7 @@ providers:
     # Name or URL template of the webfont CDN provider
     fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+    iconcdn: https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.1/css/all.min.css
 
 
 
