@@ -77,3 +77,5 @@ feed:
 abbrlink:
   alg: crc32   
   rep: hex     
+sitemap:
+  path: sitemap.xml
